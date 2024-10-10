@@ -12,7 +12,7 @@ pixels = np.float32(pixels)
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
 
 # Number of clusters (K)
-K = 5  # You can change this value depending on how many clusters you want
+K = 6  # You can change this value depending on how many clusters you want
 
 # Apply KMeans
 _, labels, centers = cv2.kmeans(pixels, K, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
