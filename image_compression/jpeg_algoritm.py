@@ -18,11 +18,9 @@ def compress_image(image_path, output_path, quality):
     return decoded_img
 
 # Example usage
-original_img = cv2.imread('original_image.jpg')
-compressed_img = compress_image('original_image.jpg', 'results/compressed_image.jpg', quality=10)
+original_img = cv2.imread('jpeg/sample.bmp')
+compressed_img = compress_image('jpeg/sample.bmp', 'jpeg/compressed_image.jpg', quality=60)
 
 # Display results
-cv2.imshow('Original', original_img)
-cv2.imshow('Compressed', compressed_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
