@@ -19,7 +19,7 @@ def compress_image(image_path, output_path, quality):
 
 # Example usage
 original_img = cv2.imread('jpeg/sample.bmp')
-compressed_img = compress_image('jpeg/sample.bmp', 'jpeg/compressed_image.jpg', quality=60)
+compressed_img = compress_image('jpeg/sample.bmp', 'jpeg/compressed_image.jpg', quality=10)
 
 # Display results
 cv2.waitKey(0)
