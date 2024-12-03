@@ -54,8 +54,7 @@ def main():
     cv2.imshow("Original", img)
     cv2.waitKey(1)
 
-    time.sleep(0.1)
-
+    time.sleep(0.1) 
     
 
 
